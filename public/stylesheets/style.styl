@@ -1,4 +1,6 @@
 paleblue=#7AE6F2
+light-grey = #E5E4E2
+
 
 body
 	padding: 0px;
@@ -22,3 +24,38 @@ header h1
 	margin-top 0.5%
 	margin-left 2%
 
+#banner
+	margin-left 15%
+	padding 0
+	margin-top -5%
+	text-align left
+
+#banner ul
+	padding 0
+	margin 0
+	list-style-type none
+	position relative
+
+#banner ul li
+	width 100px
+	border 1px solid black
+	padding 0
+	margin 0
+	display inline-block
+	background-color grey
+	
+
+
+#banner ul li:hover 
+	background-color light-grey
+
+#banner ul li:hover ul
+	display block
+	
+#banner ul ul
+	display none
+	position absolute
+
+#banner ul ul li
+	margin 0
+	display block
