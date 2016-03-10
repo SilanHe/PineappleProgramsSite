@@ -1,3 +1,13 @@
 extends layout
 
-
+block body
+	#mainform
+		form(name="request", method="post", action = "/requesting", id="rqstform")
+			<i1>email address</i1>
+			input#inputemail(type="text", placeholder="example@example.com", name = "email")
+			<br>
+			<i2>Short description of what you would like for us to do for you</i2>
+			<br>
+			textarea(name = "desc", form = "rqstform", cols="100", rows="20")
+			<br>
+			button#btnSubmit(type="submit") submit
