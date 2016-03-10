@@ -204,6 +204,7 @@ visited {
 }
 #banner ul li:hover {
   color: #ff0;
+  cursor: default;
 }
 #banner ul li:hover ul {
   display: block;
@@ -287,10 +288,11 @@ main {
   position: absolute;
   right: 50px;
   top: 100px;
-  width: 550px;
-  height: 250px;
+  width: 500px;
+  height: 220px;
   background-color: #f7f3c8;
   box-shadow: 5px 5px 2.5px #888;
+  padding: 30px;
 }
 #box2 {
   display: block;
