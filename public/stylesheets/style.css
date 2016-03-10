@@ -224,7 +224,7 @@ visited {
 }
 reqbtn a {
   position: absolute;
-  right: 150px;
+  right: 0px;
   top: 0px;
   list-style-type: none;
   display: inline-block;
