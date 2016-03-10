@@ -226,21 +226,55 @@ main
 	color #FFE21C
 	
 #members ul li
-	position relative
-	top 100px
 	list-style-type none
 	display inline-block
-	width 250px
 	margin-left 25px
 	margin-right 25px
-	height 250px
 	overflow hidden
+	position relative
+	top 100px
+	width 250px
+	height 250px
+	oveflow hidden
 	background-color white
 	border-radius 50%
+	transition all 0.2s linear
+	
+#members ul li a
+	text-decoration none
+	position relative
+	display block
+	color black
+	width 250px
+	height 250px
+	border-radius 50%
+	transition all 0.3s linear
 
 #members ul li t5
+	font-weight bold
+	font-size 20px
 	position relative
-	top 115px
+	top 110px
+	transition top 0.3s linear
+
+#members ul li d1
+	position relative
+	opacity 0
+	transition opacity 0.3s linear
+	transition top 0.3s linear
+
+#members ul li:hover
+	background-color #8904B1
+
+#members ul li:hover a
+	color white
+
+#members ul li:hover t5
+	top 80px
+
+#members ul li:hover d1
+	top 40px
+	opacity 1
 
 #requests
 	position relative
