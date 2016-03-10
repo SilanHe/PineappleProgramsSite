@@ -13,12 +13,13 @@
   list-style: none;
   display: block;
   border-radius: 50%;
-  background-color: #cff;
+  background-color: #ff0;
   bottom: -100px;
   -webkit-animation: square 3s infinite;
   animation: square 3s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
+  -webkit-filter: opacity(10%);
 }
 .bubbles li:nth-child(1) {
   width: 40px;
@@ -138,9 +139,20 @@ header {
   display: block;
   height: 85px;
   width: 100%;
-  background-color: #7ae6f2;
-  background-image: url("/images/pineapplefield3.jpg");
   position: absolute;
+  background-color: #ff0;
+  border-bottom: 1px solid #c9c6c6;
+}
+header:before {
+  content: "";
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  background-image: url("/images/pineapplefield3.jpg");
+  -webkit-filter: opacity(80%) contrast(70%);
 }
 header h1 {
   position: relative;
@@ -153,10 +165,10 @@ header h1 {
   margin-left: 2%;
 }
 #banner {
-  position: relative;
-  margin-left: 15%;
+  position: absolute;
+  top: 25px;
+  left: 250px;
   padding: 0;
-  margin-top: -70px;
   text-align: left;
   width: 85%;
 }
@@ -167,6 +179,7 @@ header h1 {
   list-style-type: none;
 }
 #banner ul li {
+  font-weight: bold;
   font-size: 20px;
   width: 100px;
   padding: 0;
@@ -175,18 +188,18 @@ header h1 {
   color: #fff;
   display: inline-block;
   background-color: none;
-  transition: all 0.7s ease;
+  transition: all 0.5s ease;
 }
 #banner ul ul li a,
 visited {
+  font-weight: bold;
   font-size: 13px;
   line-height: 40px;
   color: #000;
   text-decoration: none;
 }
 #banner ul li:hover {
-  background-color: #fff;
-  color: #000;
+  color: #ff0;
 }
 #banner ul li:hover ul {
   display: block;
@@ -196,13 +209,14 @@ visited {
   position: absolute;
 }
 #banner ul ul li {
-  background-color: #fff;
   text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #c9c6c6;
   margin: 0;
   display: block;
 }
 #banner ul ul li:hover {
-  background-color: #e5e4e2;
+  background-color: #ff0;
 }
 reqbtn a {
   position: absolute;
@@ -210,25 +224,25 @@ reqbtn a {
   top: 0px;
   list-style-type: none;
   display: inline-block;
-  width: 100px;
+  width: 150px;
   text-decoration: none;
-  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #ffe21c;
   margin-top: 0px;
   margin-left: 0px;
   transition: all 0.7s ease;
 }
 reqbtn t2 {
+  font-weight: normal;
   font-size: 20px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   line-height: 50px;
-  transition: all 0.7s ease;
+  transition: all 0.3s ease;
 }
 reqbtn a:hover {
-  background-color: #fff;
-}
-reqbtn a:hover t2 {
-  color: #000;
+  background-color: #d0bc0f;
 }
 @-moz-keyframes square {
   0% {
