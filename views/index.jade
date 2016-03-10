@@ -1,6 +1,13 @@
 extends layout
 
 block body
+	script(type='text/javascript').
+		function parallax(){
+		var lay_0 = document.getElementById('layer0');
+		lay_0.style.top = -(window.pageYOffset / 5) + 'px';
+		}
+		window.addEventListener("scroll", parallax, false);
+	#layer0
 	#about
 		<center><t3>What is<pp><pplogo><a href="/secret"><img src="/images/pplogo.png" alt="Pineapple Programs" width=30px></a></pplogo>Pineapple</pp>&nbsp Programs?</t3></center>
 		#box1
@@ -14,7 +21,22 @@ block body
 			p silan est gay, comme andreiiiii
 			p ils aiment les bites, ils sont des fifs
 	#members
-		
+		<center><t4>Members</t4></center>
+
+		<center><ul>
+		li
+			<t5>Michel Ma</t5>
+		li
+			<t5>Silan He</t5>
+		li
+			<t5>Robert Riachi</t5>
+		li
+			<t5>Edward Son</t5>
+
+		</ul></center>
+	#requests
+		<center><t6>Requests</t6></center>
+
 
 
 

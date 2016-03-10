@@ -1,154 +1,6 @@
 paleblue=#7AE6F2
 light-grey = #C9C6C6
 
-.bubbles {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 95%;
-	height: 100%;
-	z-index: -20;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-
-
-}
-
-.bubbles li {
-	position: absolute;
-	list-style: none;
-	display: block;
-	border-radius: 50%;
-	background-color: yellow;
-	bottom: -300px;
-	-webkit-animation: square 3s infinite;
-	animation: square 3s infinite;
-	-webkit-transition-timing-function: linear;
-	transition-timing-function: linear;
-	-webkit-filter opacity(10%)
-}
-
-.bubbles li:nth-child(1) {
-	width: 40px;
-	height: 40px;
-	left: 20%;
-	-webkit-animation-delay: 6s;
-	animation-delay: 6s;
-	-webkit-animation-duration: 9s;
-	animation-duration: 9s;
-
-}
-
-.bubbles li:nth-child(2) {
-	width: 60px;
-	height: 60px;
-	left: 40%;
-	-webkit-animation-delay: 2s;
-	animation-delay: 2s;
-	-webkit-animation-duration: 10s;
-	animation-duration: 10s;
-}
-
-.bubbles li:nth-child(3) {
-	width: 10px;
-	height: 10px;
-	left: 60%;
-	-webkit-animation-delay: 4s;
-	animation-delay: 4s;
-	-webkit-animation-duration: 10s;
-	animation-duration: 10s;
-}
-
-.bubbles li:nth-child(4) {
-	width: 80px;
-	height: 80px;
-	left: 80%;
-	-webkit-animation-delay: 1s;
-	animation-delay: 1s;
-	-webkit-animation-duration: 11s;
-	animation-duration: 11s;
-}
-
-.bubbles li:nth-child(5) {
-	width: 50px;
-	height: 50px;
-	left: 50%;
-	-webkit-animation-delay: 7s;
-	animation-delay: 7s;
-	-webkit-animation-duration: 10s;
-	animation-duration: 10s;
-}
-
-.bubbles li:nth-child(6) {
-	width: 30px;
-	height: 30px;
-	left: 30%;
-	-webkit-animation-delay: 5s;
-	animation-delay: 5s;
-	-webkit-animation-duration: 10s;
-	animation-duration: 10s;
-}
-
-.bubbles li:nth-child(6) {
-	width: 25px;
-	height: 25px;
-	left: 10%;
-	-webkit-animation-delay: 6s;
-	animation-delay: 6s;
-	-webkit-animation-duration: 16s;
-	animation-duration: 16s;
-}
-
-.bubbles li:nth-child(7) {
-	width: 30px;
-	height: 30px;
-	left: 25%;
-	-webkit-animation-delay: 7s;
-	animation-delay: 7s;
-	-webkit-animation-duration: 12s;
-	animation-duration: 12s;
-}
-
-.bubbles li:nth-child(9) {
-	width: 35px;
-	height: 35px;
-	left: 70%;
-	-webkit-animation-delay: 8s;
-	animation-delay: 8s;
-	-webkit-animation-duration: 14s;
-	animation-duration: 14s;
-}
-
-.bubbles li:nth-child(10) {
-	width: 20px;
-	height: 20px;
-	left: 45%;
-	-webkit-animation-delay: 5s;
-	animation-delay: 5s;
-	-webkit-animation-duration: 14s;
-	animation-duration: 14s;
-}
-@-webkit-keyframes square {
-	0% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-	100% {
-		-webkit-transform: translateY(-1080px) rotate(630deg);
-		transform: translateY(-1080px) rotate(630deg);
-	}
-}
-
-@keyframes square {
-	0% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-	100% {
-		-webkit-transform: translateY(-1080px) rotate(630deg);
-		transform: translateY(-1080px) rotate(630deg);
-	}
-}
 body
 	padding-top: 1px;
 	margin-top: -1px;
@@ -169,7 +21,7 @@ header
 	padding 0px
 	margin 0px
 	display block
-	height 85px
+	height 60px
 	width 100%
 	position fixed
 	background-color yellow
@@ -181,25 +33,25 @@ header:before
 	padding 0px
 	margin 0px
 	display block
-	height 85px
+	height 60px
 	width 100%
 	position fixed
 	background-image url("/images/pineapplefield3.jpg")
 	-webkit-filter opacity(80%) contrast(70%)
 
 header h1
-	position relative
+	position fixed
 	display block
 	border-radius 10px
 	background-color white
-	width 150px
-	height 60px
-	margin-top 10px
+	width 130px
+	height 50px
+	margin-top 5px
 	left 50px
 
 #banner
-	position absolute
-	top 25px
+	position fixed
+	top 5px
 	left 250px
 	padding 0
 	text-align left
@@ -285,20 +137,42 @@ main
 	font-size 100px
 	z-index 100
 
+#layer0
+	position fixed
+	background-image url(/images/pineapplebg.jpg)
+	background-size 100% 100%
+	width 100%
+	height 1000px
+
 #about
 	position relative
-	width 1300px
-	height 1000px
+	width 1100px
+	height 800px
 	margin auto
 	margin-top 130px
 
+#about:before
+	content ""
+	display block
+	background-color #ECECEC
+	-webkit-filter opacity(60%) blur(6px)
+	position relative
+	width 1100px
+	height 800px
+	margin auto
+	margin-top 130px
+	
+
 #about t3
+	position absolute
+	top 0
+	right 250px
 	font-size 40px
 	font-weight bold
 	color #494938
 
 #about pp 
-	color #E4CA19
+	color #FFE21C
 	transition all 0.2s ease-out
 	
 #about pplogo
@@ -313,8 +187,6 @@ main
 	bottom 40px
 	
 	
-
-
 #box1
 	display block
 	position absolute
@@ -323,7 +195,7 @@ main
 	width 500px
 	height 220px
 	background-color #F7F3C8
-	box-shadow 5px 5px 2.5px #888888
+	box-shadow 0 0 10px #888888
 	padding 30px
 
 
@@ -332,10 +204,55 @@ main
 	position absolute
 	left 50px
 	top 400px
-	width 550px
-	height 250px
+	width 500px
+	height 220px
+	padding 30px
 	background-color #F7F3C8
-	box-shadow 5px 5px 2.5px #888888
+	box-shadow 0 0 10px #888888
 	
+#members
+	position relative
+	width 100%
+	background-color #ECECEC
+	height 500px
+	margin auto
+	margin-top 150px
+
+#members t4
+	position relative
+	top 50px
+	font-size 40px
+	font-weight bold
+	color #FFE21C
+	
+#members ul li
+	position relative
+	top 100px
+	list-style-type none
+	display inline-block
+	width 250px
+	margin-left 25px
+	margin-right 25px
+	height 250px
+	overflow hidden
+	background-color white
+	border-radius 50%
+
+#members ul li t5
+	position relative
+	top 115px
+
+#requests
+	position relative
+	width 100%
+	height 500px
+	margin auto
+
+#requests t6
+	position relative
+	top 50px
+	font-size 40px
+	font-weight bold
+	color #FFE21C
 
 
