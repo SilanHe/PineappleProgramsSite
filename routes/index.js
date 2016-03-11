@@ -15,6 +15,23 @@ router.get('/requests', function(req, res, next) {
 router.get('/secret', function(req, res, next) {
   res.render('secret', { title: 'Deuce' });
 });
+//GET Michel Ma page
+router.get('/michelma', function(req, res, next) {
+  res.render('michelma', { title: 'Deuce' });
+});
+//GET Edward Son page
+router.get('/edwardson', function(req, res, next) {
+  res.render('edwardson', { title: 'Deuce' });
+});
+//GET Silan He page
+router.get('/silanhe', function(req, res, next) {
+  res.render('silanhe', { title: 'Deuce' });
+});
+//GET Andrew Spineanu page
+router.get('/robertriachi', function(req, res, next) {
+  res.render('robertriachi', { title: 'Deuce' });
+});
+
 //POST requests
 router.post('/requesting', function(req, res) {
 	var email = req.body.email;
