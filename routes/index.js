@@ -7,6 +7,10 @@ var sendgrid = require('sendgrid')('pineappleprograms', 'pineappleprograms2016')
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Pineapple Programs' });
 });
+//GET unifinder page
+router.get('/unifinder', function(req, res, next) {
+  res.render('unifinder', { title: 'Unifinder' });
+});
 //GET request page
 router.get('/requests', function(req, res, next) {
   res.render('requests', { title: 'Requests' });
@@ -28,8 +32,8 @@ router.get('/silanhe', function(req, res, next) {
   res.render('silanhe', { title: 'Deuce' });
 });
 //GET Andrew Spineanu page
-router.get('/robertriachi', function(req, res, next) {
-  res.render('robertriachi', { title: 'Deuce' });
+router.get('/andrewspineanu', function(req, res, next) {
+  res.render('andrewspineanu', { title: 'Deuce' });
 });
 
 //POST requests

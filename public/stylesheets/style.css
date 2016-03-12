@@ -3,7 +3,7 @@ body {
   margin-top: -1px;
   margin-left: 0;
   margin-right: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
   overflow-y: hidden;
   overflow-x: hidden;
   z-index: -20;
@@ -155,7 +155,7 @@ main {
   -webkit-filter: opacity(60%) blur(6px);
   position: relative;
   width: 1100px;
-  height: 700px;
+  height: 750px;
   margin: auto;
   margin-top: 130px;
 }
@@ -187,7 +187,7 @@ main {
   right: 50px;
   top: 100px;
   width: 500px;
-  height: 220px;
+  height: 120px;
   background-color: #f7f3c8;
   box-shadow: 0 0 10px #888;
   padding: 30px;
@@ -198,7 +198,29 @@ main {
   left: 50px;
   top: 400px;
   width: 500px;
-  height: 220px;
+  height: 280px;
+  padding: 30px;
+  background-color: #f7f3c8;
+  box-shadow: 0 0 10px #888;
+}
+#box3 {
+  display: block;
+  position: absolute;
+  left: 25%;
+  top: 1000px;
+  width: 500px;
+  height: 150px;
+  background-color: #f7f3c8;
+  box-shadow: 0 0 10px #888;
+  padding: 30px;
+}
+#box4 {
+  display: block;
+  position: absolute;
+  top: 1300px;
+  left: 25%;
+  width: 500px;
+  height: 280px;
   padding: 30px;
   background-color: #f7f3c8;
   box-shadow: 0 0 10px #888;
@@ -287,4 +309,18 @@ main {
   margin-top: 100px;
   width: 1000px;
   height: 800px;
+}
+#uni {
+  position: relative;
+  width: 1100px;
+  height: 700px;
+  margin: auto;
+  margin-top: 130px;
+}
+#uni t3 {
+  position: relative;
+  top: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #494938;
 }
