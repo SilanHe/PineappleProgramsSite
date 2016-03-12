@@ -7,7 +7,15 @@ html
 
 
 
-    header
+    #header
+        script(type='text/javascript').
+            function shrinkH(){
+            if (window.pageYOffset <=140){
+                var header = document.getElementById('header');
+                header.style.height = (200 - window.pageYOffset) + 'px';
+                }
+            }
+            window.addEventListener("scroll", shrinkH, false);
         <h1><center><a href= "/"><img src="/images/pptitle2.png" alt="Pineapple Programs" width=100px></a></center></h1>
         #banner
             <ul>

@@ -13,29 +13,28 @@ body {
 a {
   color: #00b7ff;
 }
-header {
+#header {
   padding: 0px;
   margin: 0px;
   display: block;
-  height: 60px;
+  height: 200px;
   width: 100%;
   position: fixed;
-  background-color: #ff0;
   border-bottom: 1px solid #c9c6c6;
   z-index: 99;
 }
-header:before {
+#header:before {
   content: "";
   padding: 0px;
   margin: 0px;
   display: block;
-  height: 60px;
+  height: inherit;
   width: 100%;
   position: fixed;
-  background-image: url("/images/pineapplefield3.jpg");
-  -webkit-filter: opacity(80%) contrast(70%);
+  background-color: #ececec;
+  -webkit-filter: opacity(90%);
 }
-header h1 {
+#header h1 {
   position: fixed;
   display: block;
   border-radius: 10px;
