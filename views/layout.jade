@@ -8,14 +8,6 @@ html
 
 
     #header
-        script(type='text/javascript').
-            function shrinkH(){
-            if (window.pageYOffset <=140){
-                var header = document.getElementById('header');
-                header.style.height = (200 - window.pageYOffset) + 'px';
-                }
-            }
-            window.addEventListener("scroll", shrinkH, false);
         <h1><center><a href= "/"><img src="/images/pptitle2.png" alt="Pineapple Programs" width=100px></a></center></h1>
         #banner
             <ul>
@@ -42,7 +34,9 @@ html
             li
                 <reqbtn><a href="/requests"><center><t2>Requests</t2></center></a></reqbtn>
             </ul>
-
+        //scripts
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src = "/scripts/barShrinkr.js"></script>
     block body
 
 
