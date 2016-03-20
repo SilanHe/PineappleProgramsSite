@@ -311,15 +311,15 @@ main {
 }
 #uni {
   position: relative;
-  width: 1100px;
-  height: 700px;
-  margin: auto;
-  margin-top: 130px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 800px;
+}
+#uni languages {
+  margin-top: 80px;
+  position: relative;
+  margin: 5%;
 }
 #uni t3 {
-  position: relative;
-  top: 0;
-  font-size: 40px;
-  font-weight: bold;
-  color: #494938;
+  font-size: 30;
 }
