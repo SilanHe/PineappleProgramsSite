@@ -1,12 +1,7 @@
 extends layout
 
 block body
-	script(type='text/javascript').
-		function parallax(){
-		var lay_0 = document.getElementById('layer0');
-		lay_0.style.top = -(window.pageYOffset / 4) + 'px';
-		}
-		window.addEventListener("scroll", parallax, false);
+
 	#layer0
 	#about
 		<center><t3>What is<pp><pplogo><a href="/secret"><img src="/images/pplogo.png" alt="Pineapple Programs" width=30px></a></pplogo>Pineapple</pp>&nbsp Programs?</t3></center>
@@ -36,6 +31,8 @@ block body
 		</ul></center>
 	#requests
 		<center><t6>Requests</t6></center>
+	//scripts
+	<script src = "/scripts/parallax.js"></script>
 
 
 
