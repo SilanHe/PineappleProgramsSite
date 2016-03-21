@@ -163,7 +163,7 @@ main {
   content: "";
   display: block;
   background-color: #ececec;
-  -webkit-filter: opacity(60%) blur(6px);
+  -webkit-filter: opacity(60%);
   position: relative;
   width: 1100px;
   height: 750px;
@@ -266,7 +266,7 @@ main {
 #members {
   position: relative;
   width: 100%;
-  background-color: #c9c6c6;
+  background-color: #ff0;
   height: 500px;
   margin: auto;
   margin-top: 150px;
@@ -276,7 +276,7 @@ main {
   top: 50px;
   font-size: 40px;
   font-weight: bold;
-  color: #ffe21c;
+  color: #000;
 }
 #members ul li {
   list-style-type: none;
