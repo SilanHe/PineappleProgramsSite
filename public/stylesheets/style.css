@@ -303,17 +303,3 @@ main {
   width: 1000px;
   height: 800px;
 }
-#uni {
-  position: relative;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 800px;
-}
-#uni languages {
-  margin-top: 80px;
-  position: relative;
-  margin: 5%;
-}
-#uni t3 {
-  font-size: 30;
-}
