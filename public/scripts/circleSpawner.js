@@ -2,7 +2,7 @@
 $(function() {
 	
 	$('#circleText').on('click', function() {
-		if ($(".circle1").css("left") == "87px"){
+		if ($(".circle1").css("opacity") == "0"){
 			$(".circle1").animate({left: "+=300px", top: "-=500px", opacity: "1"}, 1000);
 			$(".circle2").animate({top: "-=500px", opacity: "1"}, 1000);
 			$(".circle3").animate({left: "-=300px", top: "-=500px", opacity: "1"}, 1000);
