@@ -110,8 +110,8 @@ visited {
   border-radius: 30px;
   background-color: #fff;
   position: relative;
-  z-index: 99999;
-  opacity: 1;
+  z-index: 0;
+  opacity: 0;
   top: 200px;
 }
 #bigLogo pptitle2 {
@@ -266,7 +266,7 @@ main {
 #members {
   position: relative;
   width: 100%;
-  background-color: #ff0;
+  background-color: #ffe21c;
   height: 500px;
   margin: auto;
   margin-top: 150px;
@@ -333,15 +333,80 @@ main {
 #requests {
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 450px;
   margin: auto;
+  margin-top: 100px;
 }
-#requests t6 {
+#Rbox5Text {
   position: relative;
-  top: 50px;
-  font-size: 40px;
+  left: 0px;
+}
+#Rbox5 {
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 380px;
+  width: 500px;
+  height: 200px;
+  padding: 30px;
+  line-height: 30px;
+  text-align: justify;
+  background-color: #f7f3c8;
+  box-shadow: 0 0 10px #888;
+}
+#Rbox5Text:hover {
+  background-color: #800080;
+  cursor: pointer;
+}
+#circleText {
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 50px;
+  top: 20px;
+  line-height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Arial';
   font-weight: bold;
   color: #ffe21c;
+  z-index: 1000000;
+}
+#circleText:hover {
+  background-color: #9ccbcf;
+  cursor: pointer;
+}
+#requests {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+#requests ul li {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ececec;
+  display: inline-block;
+  position: relative;
+}
+#requests ul li.circle1 {
+  position: relative;
+  left: 87px;
+  top: 510px;
+  opacity: 0;
+}
+#requests ul li.circle2 {
+  position: relative;
+  top: 510px;
+  opacity: 0;
+  left: 475px;
+}
+#requests ul li.circle3 {
+  position: relative;
+  left: 857px;
+  top: 510px;
+  opacity: 0;
 }
 #mainform {
   margin: auto;
