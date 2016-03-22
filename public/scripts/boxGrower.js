@@ -2,7 +2,7 @@
 $(function() {
 	$('.boxText').on('click', function(){
 		var boxid = $(this).attr('data-boxid');
-		if ($(this).css("top") == '170px'){
+		if ($(this).css("top") == '-580px'){
 			$(this).animate({top: '-=80px'}, 400);
 			$('#'+boxid).delay(400).slideToggle(700);
 		} else {
