@@ -32,8 +32,8 @@ router.get('/silanhe', function(req, res, next) {
   res.render('silanhe', { title: 'Deuce' });
 });
 //GET Andrew Spineanu page
-router.get('/andrewspineanu', function(req, res, next) {
-  res.render('andrewspineanu', { title: 'Deuce' });
+router.get('/robertriachi', function(req, res, next) {
+  res.render('robertriachi', { title: 'Deuce' });
 });
 
 //POST requests
