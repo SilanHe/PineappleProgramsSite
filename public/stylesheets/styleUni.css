@@ -146,14 +146,12 @@ main {
   margin-left: 15%;
   margin-top: 80px;
   line-height: 30px;
-
 }
 #uni t {
   position: relative;
   font-size: 40px;
   font-weight: bold;
   color: #494938;
-
 }
 #uni t2 {
   position: relative;
@@ -171,38 +169,11 @@ main {
   font-size: 12px;
   color: #494938;
 }
-#uni t4 {
-  display: block;
-  position: relative;
-  margin-right: 500px;
-  height: 190px;
-  width: 500px;
-  padding: 30px;
-  line-height: 30px;
-  text-align: justify;
-  background-color: #f7f3c8;
-  box-shadow: 0 0 10px #888;
-}
 #uni ul li {
   list-style-type: none;
   overflow: hidden;
   position: relative;
   background-color: #fff;
-}
-
-#unibox2 t5{
-  display: block;
-  position: relative;
-  margin-left: 600px;
-  margin-top: -250px;
-  height: 190px;
-  width: 500px;
-  padding: 30px;
-  line-height: 30px;
-  text-align: justify;
-  background-color: #f7f3c8;
-  box-shadow: 0 0 10px #888;
-
 }
 #nodejst {
   display: block;
