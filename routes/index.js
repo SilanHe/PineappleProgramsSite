@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var sendgrid = require('sendgrid')('pineappleprograms', 'pineappleprograms2016');
 
 
 /* GET home page. */
@@ -38,17 +37,17 @@ router.get('/robertriachi', function(req, res, next) {
 
 //POST requests
 router.post('/requesting', function(req, res) {
-	var email = req.body.email;
+	/*var email = req.body.email;
 	var desc = req.body.desc;
 	sendgrid.send({
 		to:     'pineappleprogramsco@gmail.com',
 		from:   'noreply@pineapple.request',
 		subject:email,
 		text:   desc
-	}, function(err, json) {
+	}, function(err, json) {*/
 		if (err) { return res.send('email failed to send'); }
 		res.render('index', {title: 'Pineapple Programs'});;
-	});
+	//});
 })
 
 module.exports = router;
