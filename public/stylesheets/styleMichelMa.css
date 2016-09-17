@@ -1,0 +1,136 @@
+body {
+  padding-top: 1px;
+  margin-top: -1px;
+  margin-left: 0;
+  margin-right: 0;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: -20;
+  background-color: #fff;
+  overflow: auto;
+}
+a {
+  color: #00b7ff;
+}
+#header {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #c9c6c6;
+  z-index: 99;
+}
+#header:before {
+  content: "";
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  height: inherit;
+  width: 100%;
+  position: fixed;
+  background-image: url("/images/pineapplebg.jpg");
+  background-size: 100% 800px;
+  -webkit-filter: opacity(80%);
+}
+#header h1 {
+  position: fixed;
+  display: block;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  left: 50px;
+}
+#banner {
+  position: fixed;
+  top: 5px;
+  left: 250px;
+  padding: 0;
+  text-align: left;
+  width: 70%;
+}
+#banner ul {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#banner ul li {
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  line-height: 10px;
+  color: #fff;
+  display: inline-block;
+  background-color: none;
+  transition: all 0.5s ease;
+}
+#banner ul ul li a,
+visited {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 40px;
+  color: #000;
+  text-decoration: none;
+}
+#banner ul li:hover {
+  color: #ff0;
+  cursor: default;
+}
+#banner ul li:hover ul {
+  display: block;
+}
+#banner ul ul {
+  display: none;
+  position: absolute;
+}
+#banner ul ul li {
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #c9c6c6;
+  margin: 0;
+  display: block;
+}
+#banner ul ul li:hover {
+  background-color: #ff0;
+}
+reqbtn a {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  list-style-type: none;
+  display: inline-block;
+  width: 150px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #ffe21c;
+  margin-top: 0px;
+  margin-left: 0px;
+  transition: all 0.7s ease;
+}
+reqbtn t2 {
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  line-height: 50px;
+  transition: all 0.3s ease;
+}
+reqbtn a:hover {
+  background-color: #d0bc0f;
+}
+main {
+  width: 100%;
+  height: 1000px;
+  margin-top: 85px;
+  position: absolute;
+  font-size: 100px;
+  z-index: 100;
+}

@@ -17,40 +17,39 @@ a {
   padding: 0px;
   margin: 0px;
   display: block;
-  height: 35em;
+  height: 700px;
   width: 100%;
   position: fixed;
-  border-bottom: 0.05em solid #c9c6c6;
+  border-bottom: 1px solid #c9c6c6;
   z-index: 99;
 }
 #header:before {
   content: "";
-  padding: 0em;
-  margin: 0em;
+  padding: 0px;
+  margin: 0px;
   display: block;
   height: inherit;
   width: 100%;
   position: fixed;
   background-image: url("/images/pineapplebg.jpg");
-  background-size: 100% 40em;
+  background-size: 100% 800px;
   -webkit-filter: opacity(87%);
-  z-index: -90;
 }
 #h1 {
   position: fixed;
   display: block;
-  border-radius: 0.5em;
+  border-radius: 10px;
   background-color: #fff;
-  width: 6.5em;
-  height: 2.5em;
-  margin-top: 0.25em;
-  left: 2.5em;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  left: 50px;
   opacity: 0;
 }
 #banner {
   position: fixed;
-  top: 0.25em;
-  left: 12.5em;
+  top: 5px;
+  left: 250px;
   padding: 0;
   text-align: left;
   width: 70%;
@@ -58,16 +57,17 @@ a {
 #banner ul {
   position: relative;
   padding: 0;
-  margin: 0;
+}
+margin 0 {
   list-style-type: none;
 }
 #banner ul li {
   font-weight: bold;
-  font-size: 1em;
-  width: 5em;
+  font-size: 20px;
+  width: 100px;
   padding: 0;
   margin: 0;
-  line-height: 0.5em;
+  line-height: 10px;
   color: #fff;
   display: inline-block;
   background-color: none;
@@ -77,8 +77,8 @@ a {
 #banner ul ul li a,
 visited {
   font-weight: bold;
-  font-size: 0.65em;
-  line-height: 2em;
+  font-size: 13px;
+  line-height: 40px;
   color: #000;
   text-decoration: none;
 }
@@ -96,7 +96,7 @@ visited {
 #banner ul ul li {
   text-decoration: none;
   background-color: #fff;
-  border: 0.05em solid #c9c6c6;
+  border: 1px solid #c9c6c6;
   margin: 0;
   display: block;
 }
@@ -106,18 +106,18 @@ visited {
 #bigLogo {
   display: block;
   position: absolute;
-  width: 30em;
-  height: 15em;
-  border-radius: 1.5em;
+  width: 600px;
+  height: 300px;
+  border-radius: 30px;
   background-color: #fff;
   position: relative;
   z-index: 100;
   opacity: 1;
-  top: 10em;
+  top: 200px;
 }
 #bigLogo pptitle2 {
   position: relative;
-  top: 1.5em;
+  top: 30px;
 }
 reqbtn a {
   position: absolute;
@@ -125,10 +125,10 @@ reqbtn a {
   top: 0px;
   list-style-type: none;
   display: inline-block;
-  width: 5.5em;
+  width: 150px;
   text-decoration: none;
-  border-radius: 0.25em;
-  border: 0.05em solid #000;
+  border-radius: 5px;
+  border: 1px solid #000;
   background: #ffe21c;
   margin-top: 0px;
   margin-left: 0px;
@@ -136,10 +136,10 @@ reqbtn a {
 }
 reqbtn t2 {
   font-weight: normal;
-  font-size: 1em;
+  font-size: 20px;
   text-decoration: none;
   color: #000;
-  line-height: 2.5em;
+  line-height: 50px;
   transition: all 0.3s ease;
 }
 reqbtn a:hover {
@@ -147,18 +147,18 @@ reqbtn a:hover {
 }
 main {
   width: 100%;
-  height: 50em;
-  margin-top: 4.25;
+  height: 1000px;
+  margin-top: 85px;
   position: absolute;
-  font-size: 5em;
+  font-size: 100px;
   z-index: 100;
 }
 #about {
   position: relative;
-  width: 55em;
-  height: 40em;
+  width: 1100px;
+  height: 700px;
   margin: auto;
-  margin-top: 25em;
+  margin-top: 500px;
 }
 #about:before {
   content: "";
@@ -166,16 +166,16 @@ main {
   background-color: #ececec;
   -webkit-filter: opacity(60%);
   position: relative;
-  width: 55em;
-  height: 50em;
+  width: 1100px;
+  height: 750px;
   margin: auto;
-  margin-top: 25em;
+  margin-top: 500px;
 }
 #about t3 {
   position: absolute;
-  top: 0.5em;
-  right: 6em;
-  font-size: 2em;
+  top: 0;
+  right: 220px;
+  font-size: 40px;
   font-weight: bold;
   color: #494938;
 }
@@ -184,9 +184,9 @@ main {
   transition: all 0.2s ease-out;
 }
 #about pplogo {
-  position: absolute;
+  position: relative;
   opacity: 0;
-  left: 5.7em;
+  left: 114px;
   transition: all 0.2s ease-out;
 }
 #about pplogo a img {
@@ -195,11 +195,11 @@ main {
 }
 #about pp:hover pplogo {
   opacity: 1;
-  bottom: 1em;
+  bottom: 40px;
 }
 #objective {
   position: relative;
-  top: -40em;
+  top: -550px;
 }
 #objective img {
   position: relative;
@@ -207,7 +207,7 @@ main {
 }
 #capabilities {
   position: relative;
-  top: -40em;
+  top: -550px;
 }
 #capabilities img {
   position: relative;
@@ -216,17 +216,17 @@ main {
 .boxText {
   display: block;
   position: relative;
-  font-size: 1.5em;
+  font-size: 30px;
   font-family: 'Arial';
   font-weight: bold;
-  top: -28em;
+  top: -580px;
   width: 25%;
-  height: 2.5em;
+  height: 50px;
   margin: auto;
   background-color: #ffe21c;
-  border: 0.05em solid #000;
-  border-radius: 0.75em;
-  line-height: 2.5em;
+  border: 1px solid #000;
+  border-radius: 15px;
+  line-height: 50px;
   z-index: 10000;
 }
 .boxText:hover {
@@ -236,79 +236,79 @@ main {
 #box1 {
   display: none;
   position: absolute;
-  right: 13.5em;
-  top: 8.3em;
-  width: 25em;
-  height: 8em;
-  line-height: 1.5em;
+  right: 270px;
+  top: 150px;
+  width: 500px;
+  height: 160px;
+  line-height: 30px;
   text-align: justify;
   background-color: #f7f3c8;
-  box-shadow: 0 0 0.5em #888;
-  padding: 1.5em;
+  box-shadow: 0 0 10px #888;
+  padding: 30px;
 }
 #box2Text {
-  margin-top: 5em;
+  margin-top: 100px;
 }
 #box2 {
   display: none;
   position: absolute;
-  right: 13.5em;
-  top: 27.5em;
-  width: 25em;
-  height: 10em;
-  padding: 1.5em;
-  line-height: 1.5em;
+  right: 270px;
+  top: 450px;
+  width: 500px;
+  height: 200px;
+  padding: 30px;
+  line-height: 30px;
   text-align: justify;
   background-color: #f7f3c8;
-  box-shadow: 0 0 0.5em #888;
+  box-shadow: 0 0 10px #888;
 }
 #box3 {
   display: block;
   position: absolute;
   left: 25%;
-  top: 50em;
-  width: 25em;
-  height: 7.5em;
+  top: 1000px;
+  width: 500px;
+  height: 150px;
   background-color: #f7f3c8;
-  box-shadow: 0 0 0.5em #888;
-  padding: 1.5em;
+  box-shadow: 0 0 10px #888;
+  padding: 30px;
 }
 #box4 {
   display: block;
   position: absolute;
-  top: 65em;
+  top: 1300px;
   left: 25%;
-  width: 25em;
-  height: 14em;
-  padding: 1.5em;
+  width: 500px;
+  height: 280px;
+  padding: 30px;
   background-color: #f7f3c8;
-  box-shadow: 0 0 0.5em #888;
+  box-shadow: 0 0 10px #888;
 }
 #members {
   position: relative;
   width: 100%;
   background-color: #ffe21c;
-  height: 25em;
+  height: 500px;
   margin: auto;
-  margin-top: 7.5em;
+  margin-top: 150px;
 }
 #members t4 {
   position: relative;
-  top: 2.5em;
-  font-size: 2em;
+  top: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #000;
 }
 #members ul li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
+  margin-left: 25px;
+  margin-right: 25px;
   overflow: hidden;
   position: relative;
-  top: 5em;
-  width: 12.5em;
-  height: 12.5em;
+  top: 100px;
+  width: 250px;
+  height: 250px;
   oveflow: hidden;
   background-color: #fff;
   border-radius: 50%;
@@ -319,17 +319,17 @@ main {
   position: relative;
   display: block;
   color: #000;
-  width: 12.5em;
-  height: 12.5em;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   transition: all 0.3s linear;
   z-index: 1000;
 }
 #members ul li t5 {
   font-weight: bold;
-  font-size: 1em;
+  font-size: 20px;
   position: relative;
-  top: 5.5em;
+  top: 110px;
   transition: top 0.3s linear;
 }
 #members ul li d1 {
@@ -345,40 +345,40 @@ main {
   color: #fff;
 }
 #members ul li:hover t5 {
-  top: 4em;
+  top: 80px;
 }
 #members ul li:hover d1 {
-  top: 2em;
+  top: 40px;
   opacity: 1;
 }
 #requests {
   position: relative;
-  width: 45em;
+  width: 900px;
   margin: auto;
-  margin-top: 5em;
-  height: 35em;
+  margin-top: 100px;
+  height: 700px;
   overflow: hidden;
 }
 #reqTitle {
   position: relative;
-  top: -0.25em;
-  font-size: 2em;
+  top: -5px;
+  font-size: 40px;
   font-weight: bold;
 }
 #reqDesc t7 {
-  line-height: 2em;
+  line-height: 40px;
 }
 #circleText {
   display: block;
   position: relative;
-  width: 15em;
-  height: 2.5em;
-  top: 1em;
-  line-height: 2.5em;
-  border-radius: 0.5em;
+  width: 300px;
+  height: 50px;
+  top: 20px;
+  line-height: 50px;
+  border-radius: 10px;
   background-color: #ffe21c;
-  border: 0.05em solid #000;
-  font-size: 1em;
+  border: 1px solid #000;
+  font-size: 20px;
   z-index: 1000000;
 }
 #circleText:hover {
@@ -387,10 +387,10 @@ main {
 }
 #requests ul li {
   display: block;
-  width: 5em;
-  height: 5em;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  border: 0.05em solid #000;
+  border: 1px solid #000;
   background-color: #9ccbcf;
   display: inline-block;
   position: relative;
@@ -399,28 +399,28 @@ main {
   text-decoration: none;
   display: block;
   color: #fff;
-  width: 5em;
-  height: 5em;
-  line-height: 5em;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
   border-radius: 50%;
   transition: all 0.3s linear;
 }
 #requests ul li.circle1 {
   position: relative;
-  left: 6.75em;
-  top: 25.5em;
+  left: -135px;
+  top: 510px;
   opacity: 0;
 }
 #requests ul li.circle2 {
   position: relative;
-  top: 25.5em;
+  top: 510px;
   opacity: 0;
-  left: 12.65em;
+  left: 253px;
 }
 #requests ul li.circle3 {
   position: relative;
-  left: 31.75em;
-  top: 25.5em;
+  left: 635px;
+  top: 510px;
   opacity: 0;
 }
 #requests ul li.circle1:hover a {
@@ -441,23 +441,23 @@ main {
 #Rbox5 {
   display: block;
   position: absolute;
-  top: 13.5em;
-  left: 8.5em;
-  width: 25em;
-  height: 11em;
-  padding: 1.5em;
-  line-height: 1.5em;
+  top: 270px;
+  left: 170px;
+  width: 500px;
+  height: 220px;
+  padding: 30px;
+  line-height: 30px;
   text-align: justify;
   background-color: #f7f3c8;
-  box-shadow: 0 0 0.5em #888;
+  box-shadow: 0 0 10px #888;
 }
 #Rbox5 t8 {
-  line-height: 1em;
-  font-size: 0.75em;
+  line-height: 20px;
+  font-size: 15px;
 }
 #mainform {
   margin: auto;
-  margin-top: 5em;
-  width: 50em;
-  height: 40em;
+  margin-top: 100px;
+  width: 1000px;
+  height: 800px;
 }
